@@ -122,6 +122,7 @@ mtk_pep20.ko
 mtk_pep.ko
 mtk_pd_charging.ko
 rfc_ta.ko
+tran_common_class.ko
 prop_ta_class.ko
 pca_rfc_ta.ko
 usb_switch.ko
@@ -134,6 +135,7 @@ tran_battery_aging.ko
 mtk_charger_framework.ko
 rt_pd_manager.ko
 mt6358_battery.ko
+tran_otg.ko
 pwm-mtk-disp.ko
 leds-mtk.ko
 leds-mtk-disp.ko
@@ -158,9 +160,10 @@ tinysys-scmi.ko
 mtk-mbox-mailbox.ko
 irq-dbg.ko
 mtk-socinfo.ko
+sec.ko
 tkv.ko
 tkv_recovery.ko
 tran_rhi.ko
 tran_fp.ko
 tran_expand_key.ko
-sdcard_debug.ko
+tran_auto_test.ko
